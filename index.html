@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">Gulnaz Shifa Ansari</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <nav id="humburger-nav">
+        <div class="logo">Gulnaz Shifa Ansari</div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Work Exprience</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="profile.png" alt="Gulnaz Ansari Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello,I'm</p>
+            <h1 class="title">Gulnaz Shifa</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn_container">
+                <button class="btn btn color-2" onclick="window.open('gulnaz resume.pdf')">Download CV</button>
+                <button class="btn btn color-1 " onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="social_container">
+                <img src="linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/'"/>
+            
+                <img src="github.png" alt="My GitHub Profile"
+                class="icon" onclick="location.href='https://github.com/'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section_container">
+            <div class="section_pic-container">
+                <img src="2profile.png" alt="profile picture" class="about-pic"/>
+            </div>
+            <div class="about_detail-container">
+                <div class="about-container">
+                    <div class="detail-container">
+                        <img src="experience.png" alt="experience icon" class="icon"/>
+                        <h3>Exprience</h3>
+                        <p>Fresher <br/>Frontend Developer</p>
+                    </div>
+                    <div class="detail-container">
+                        <img src="ed.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.C.A.sc(Bachelors in Computer Application)</p>
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>B.C.A. stands for Bachelor of Computer Applications. It is an undergraduate degree program that typically spans three years and is designed to provide students with a strong foundation in computer science and its applications. The B.C.A. program covers a range of topics related to computer science, programming, software development, and information technology.</p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"/>
+        
+    </section>  
+    </section>
+    <section id="experience">
+       <p class="section_text_p1">Explore My</p>
+       <h1 class="title">Skills</h1>
+       <div class="experience-detail-container">
+        <div class="about-container">
+            <div class="detail-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="exper.png" alt="Experience icon" class="icon"/>
+                        <div>
+                        <h3>HTML</h3>
+                        <p>Basic</p>
+                    </div>
+                    </article>
+                    <article>
+                        <article>
+                            <img src="exper.png" alt="Experience icon" class="icon"/>
+                            <div>
+                            <h3>CSS</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="exper.png" alt="Experience icon" class="icon"/>
+                            <div>
+                            <h3>JAVASCRIPT</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                </div>
+            </div>
+            <div class="detail-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="exper.png" alt="Experience icon" class="icon"/>
+                        <div>
+                        <h3>JAVA</h3>
+                        <p>Basic</p>
+                    </div>
+                    </article>
+                    <article>
+                        <article>
+                            <img src="exper.png" alt="Experience icon" class="icon"/>
+                            <div>
+                            <h3>PYTHON</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="exper.png" alt="Experience icon" class="icon"/>
+                            <div>
+                            <h3>SQL</h3>
+                            <p>Basic</p>
+                        </div>
+                        </article>
+                </div>
+            </div>
+        </div>
+       </div>
+       <img src="arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#project'"/>
+        
+    </section>
+    <section id="project">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Project</h1>
+        <div class="experience-detail-container">
+            <div class="about-container">
+            <div class="detail-container color-container">
+                <div class="article-container">
+                    <img src="fee.png" alt="project1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"  onclick="location.href='http://github.com/'">
+                     Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"  onclick="location.href='http://github.com/'">
+                        Live Demo
+                       </button>
+
+                </div>
+            </div> 
+            <div class="detail-container color-container">
+                <div class="article-container">
+                    <img src="code.png" alt="project2" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"  onclick="location.href='http://github.com/'">
+                     Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"  onclick="location.href='http://github.com/'">
+                        Live Demo
+                       </button>
+
+                </div>
+            </div> 
+            <div class="detail-container color-container">
+                <div class="article-container">
+                    <img src="port.png" alt="project3" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"  onclick="location.href='http://github.com/'">
+                     Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"  onclick="location.href='http://github.com/'">
+                        Live Demo
+                       </button>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#project'"/>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="mail.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                    <p><a href="mailto:gulnazshifa130@gmail.--com">Mail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+                </div>
+            </div>
+            
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 gulnaz shifa .All Right Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
